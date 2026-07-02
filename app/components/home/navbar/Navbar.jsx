@@ -21,7 +21,7 @@ const Navbar = ({ openMenu }) => {
   }, []);
   return (
     <div
-      className={`transition-all duration-500 h-[12vh] z-1000 backdrop-blur-sm w-full ${navBg ? "bg-col-2 shadow-md fixed" : "absolute"}`}
+      className={`transition-all duration-500 h-[12vh] z-1000 w-full ${navBg ? "bg-col-2 shadow-md fixed backdrop-blur-sm" : "absolute"}`}
     >
       <div className="flex items-center h-full justify-between w-[90%] mx-auto">
         <div className="flex items-center space-x-2">
