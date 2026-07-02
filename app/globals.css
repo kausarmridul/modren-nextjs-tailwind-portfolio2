@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-col-1: #0d0d1f;
+  --color-col-2: #0f142ed9;
+  --color-col-3: #0c0c48aa;
+  --color-col-4: #14134145;
+  --color-col-5: #131332;
+  --color-col-6: #363659;
+}
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
